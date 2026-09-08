@@ -228,7 +228,7 @@ BuilderDesignPattern/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/BuilderDesignPattern.git
+   git clone https://github.com/ajiana01/BuilderDesignPattern.git
    cd BuilderDesignPattern
    ```
 
