@@ -19,37 +19,37 @@ public class Character
     /// <summary>
     /// Gets the character's display name or title.
     /// </summary>
-    public string Name { get; private set; }
+    private string Name { get; set; }
 
     /// <summary>
     /// Gets the character's hit points (health).
     /// </summary>
-    public int Health { get; private set; }
+    private int Health { get; set; }
 
     /// <summary>
     /// Gets the character's Armor Class (AC), determining how difficult they are to hit.
     /// </summary>
-    public int ArmorClass { get; private set; }
+    private int ArmorClass { get; set; }
 
     /// <summary>
     /// Gets the character's initiative modifier for battle turn order.
     /// </summary>
-    public int InitiativeBase { get; private set; }
+    private int InitiativeBase { get; set; }
 
     /// <summary>
     /// Gets the primary equipped weapon, or <c>null</c> if unarmed.
     /// </summary>
-    public IWeapon? MainWeapon { get; private set; }
+    private IWeapon? MainWeapon { get; set; }
 
     /// <summary>
     /// Gets the secondary equipped weapon (off-hand or special ability), or <c>null</c> if none.
     /// </summary>
-    public IWeapon? SecondaryWeapon { get; private set; }
+    private IWeapon? SecondaryWeapon { get; set; }
 
     /// <summary>
     /// Gets a value indicating whether this character is classified as a boss monster.
     /// </summary>
-    public bool IsBoss { get; private set; }
+    private bool IsBoss { get; set; }
 
     /// <summary>
     /// Initializes a new instance of the <see cref="Character"/> class.
